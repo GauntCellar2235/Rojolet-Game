@@ -4,8 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rojolet</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Titan+One&family=Nunito+Sans:wght@400;700&display=swap"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="views/home page/index.css">
+<style>
+ body {
+    display: block;
+    font-family:
+        Nunito Sans,
+        sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/Rojolet Game/images/checkers.png');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    background-color: #8b0000;
+    border-bottom: #6b0000 8px solid;
+    height: 100px;
+    justify-content: space-between;
+}
+.logo a {
+    margin-left: 15px;
+    font-size: 35px;
+    color: #fff;
+    font-family: "Titan One", sans-serif;
+    text-decoration: none;
+}
+button {
+    background-color: #a30000;
+  border: none;
+  color: white;               
+  padding: 15px 32px;
+  text-align: center;
+  border: 7px solid #bb0303;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 17px;
+  font-family: 'Titan One', sans-serif;
+}
+button a {
+    color: white;
+    font-family: "Titan One", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+h1 {
+    font-family: "Titan One", sans-serif;
+}
+.nav-button {
+    height: 28px;
+    text-align: center;
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    border-color: #E8E8E8;
+}
+.nav-button a {
+    height: 28px;
+    text-align: center;
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    border-color: #E8E8E8;
+}
+.nav-button a:hover {
+    background-color: #a30000;
+}   
+</style>
 </head>
 <body>
-    
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Rojolet</a></div>
+            <ul>
+                <button><a href="register.html">Sign Up</a></button>
+                <button><a href="login.html">Login</a></button>
+
+            </ul>
+        </div>
+    </nav>
+    <h3>Founded by GauntCellar2235. Written in JS, HTML, and CSS. This project has taken a long time to make and we are so excited for you to play.</h3>
 </body>
 </html>
